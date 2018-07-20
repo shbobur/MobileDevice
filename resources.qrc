@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/main/controlButtons/images">
+        <file>iconBack.png</file>
+        <file>iconHome.png</file>
+        <file>iconOrientationLeft.png</file>
+        <file>iconOrientationNatural.png</file>
+        <file>iconOrientationRight.png</file>
+        <file>iconQuickSettings.png</file>
+        <file>iconRecentApps.png</file>
+        <file>iconScreenOff.png</file>
+        <file>iconScreenOn.png</file>
+        <file>iconSearch.png</file>
+        <file>iconNotificationsOn.png</file>
+    </qresource>
+</RCC>
