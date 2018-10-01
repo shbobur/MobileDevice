@@ -4,7 +4,8 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui network
+
 #CONFIG   += console
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -26,19 +27,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    devicescreen.cpp \
-    devicescreenportrait.cpp \
-    devicescreenwidget.cpp
+    imagecropperwindow.cpp \
+    imagecropwindow_p.cpp
 
 HEADERS += \
         mainwindow.h \
-    devicescreen.h \
-    devicescreenportrait.h \
-    devicescreenwidget.h
+    imagecropperwindow.h \
+    imagecropwindow_p.h
 
 FORMS += \
-        mainwindow.ui \
-    devicescreenwidget.ui
+        mainwindow.ui
 
 RESOURCES += \
-    resources.qrc
+    resoruces.qrc
+

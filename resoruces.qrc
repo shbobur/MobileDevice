@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/translations">
+        <file>newLanguage.qm</file>
+        <file>newLanguage.ts</file>
+    </qresource>
+</RCC>
